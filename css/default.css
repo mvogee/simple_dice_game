@@ -40,4 +40,9 @@ h1 {
     padding: 15px 75px;
     margin: 50px;
     box-shadow: 0 5px #232931;
+    outline: none;
+}
+
+.btn:active {
+    box-shadow: 0 0 5px #fff;
 }
