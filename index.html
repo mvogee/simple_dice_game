@@ -8,15 +8,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Dicee</title>
-        <meta name="description" content="">
+        <meta name="description" content="simple dice game, roll the dice and see who the winner is">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+        <link rel="stylesheet" href="css/default.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <script src="" async defer></script>
+            <h1>Dice Game</h1>
+            <div class="dice-wrapper">
+                <div class="dice first-dice">
+                    <h3 class= "player-number">player 1</h3>
+                    <img src="./images/dice1.png" alt="dice">
+                </div>
+                <div class="dice second-dice">
+                    <h3 class="player-number">player 2</h3>
+                    <img src="./images/dice1.png" alt="dice">
+                </div>
+            </div>
+            <button class="btn">Roll!</button>
+        <script src="js/dice.js" async defer></script>
     </body>
 </html>
