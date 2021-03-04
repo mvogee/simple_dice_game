@@ -1,6 +1,3 @@
-
-
-
 function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
@@ -29,11 +26,10 @@ function main() {
     var playerOneRoll = rollDice();
     var playerTwoRoll = rollDice();
 
-    console.log(playerOneRoll);
-    console.log(playerTwoRoll);
     //change images to roll
     putDiceImg(dice1, playerOneRoll);
     putDiceImg(dice2, playerTwoRoll);
+
     //change text to which player won
     updateWinner(playerOneRoll, playerTwoRoll);
 }

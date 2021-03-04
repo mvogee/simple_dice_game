@@ -9,7 +9,7 @@ h1 {
     font-size: 125px;
     color: #4ECCA3;
     text-shadow: 5px 0 #232931;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 .dice-wrapper {
